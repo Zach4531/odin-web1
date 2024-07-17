@@ -3,8 +3,9 @@ html {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 900px;
   margin: auto;
+  padding: 1rem 1rem;
 }
 
 * {
@@ -19,7 +20,7 @@ html {
   align-items: center;
   color: white;
   border-radius: 0.5rem;
-  padding: 2rem 0rem;
+  padding: 2.5rem 0rem;
 }
 
 .call_to_action button {
@@ -87,7 +88,7 @@ section {
 }
 
 .hero-heading p,
-nav a {
+nav li {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -105,4 +106,62 @@ nav a {
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 6rem;
+  color: #1f2937;
+}
+
+.quote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  position: relative;
+}
+
+.quote p::after {
+  content: '-Thor, God of Thunder';
+  font-weight: bold;
+  position: absolute;
+  font-size: 24px;
+  font-style: normal;
+  width: fit-content;
+  right: 3rem;
+  bottom: -2.5rem;
+}
+
+.info {
+  padding: 3rem 0rem;
+}
+
+.info h3 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.info-box div {
+  border: 2px solid #3882f6;
+  border-radius: 0.5rem;
+  height: 125px;
+  width: 125px;
+}
+
+.info-boxes {
+  display: flex;
+  gap: 3rem;
+  text-align: center;
+  max-width: 750px;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
