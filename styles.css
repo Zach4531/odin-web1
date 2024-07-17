@@ -1,0 +1,38 @@
+html {
+  font-family: Roboto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.call_to_action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  width: 75%;
+  margin: auto;
+}
+
+.call_to_action button {
+  background-color: transparent;
+  color: white;
+  border-radius: 0.5rem;
+  border: 2px solid white;
+  padding: 0.5rem 1.5rem;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+section {
+  padding: 2rem;
+}
