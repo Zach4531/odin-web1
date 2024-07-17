@@ -62,7 +62,6 @@ nav ul {
 }
 nav li a {
   text-decoration: none;
-  color: white;
 }
 
 footer {
@@ -88,7 +87,7 @@ section {
 }
 
 .hero-heading p,
-nav li {
+nav li a {
   font-size: 18px;
   color: #e5e7eb;
 }
